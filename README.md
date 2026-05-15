@@ -52,8 +52,6 @@ src/
 
 ### Prerequisites
 
-- Node.js 18+ (LTS recommended)
-- npm, yarn, or pnpm
 
 ### Installation
 
@@ -188,11 +186,6 @@ public/placeholders/
 
 ### Image Optimization Tips
 
-- Use **WebP** format for best compression
-- Compress images with [Squoosh](https://squoosh.app/) or [TinyPNG](https://tinypng.com/)
-- Keep hero images under 200KB
-- Keep other images under 100KB
-- Use appropriate dimensions — don't serve 4K images for thumbnails
 
 ## Content Management
 
@@ -213,23 +206,9 @@ Edit these files to update website content without touching component code.
 ## SEO
 
 The website includes:
-- ✅ Page-level metadata (title, description)
-- ✅ OpenGraph tags
-- ✅ Twitter Card tags
-- ✅ Auto-generated sitemap (`/sitemap.xml`)
-- ✅ Robots.txt (`/robots.txt`)
-- ✅ Semantic HTML with proper heading hierarchy
-- ✅ Alt text support for all images
-- ✅ Accessible navigation with ARIA labels
 
 ## Performance
 
-- ✅ Static HTML export (no server required)
-- ✅ Minimal JavaScript bundle
-- ✅ Lazy-loaded animations (Intersection Observer)
-- ✅ No unnecessary third-party libraries
-- ✅ Optimized Tailwind CSS (purged unused styles)
-- ✅ Responsive images with proper sizing
 
 ## Development
 
@@ -250,3 +229,7 @@ npm run build
 ## License
 
 Proprietary — CombitTech. All rights reserved.
+=======
+# combittech
+Building a platform for potential brains to cultivate leaders of the engineering ecosystem for tomorrow, which will also ensure career growth and wealth generation of an individual.
+>>>>>>> b0ba43292c078414247cacdf301741b9ed1a920d
