@@ -3,6 +3,7 @@ import { company } from "@/data/company";
 import { footerLinks } from "@/data/navigation";
 import { Separator } from "@/components/ui/separator";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { assets } from "@/config/assets";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -15,9 +16,12 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-primary-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">CT</span>
-              </div>
+              <img
+                src={assets.logo.primary}
+                alt="CombitTech Logo"
+                className="w-9 h-9 rounded-lg object-contain bg-white"
+                style={{ display: "block" }}
+              />
               <div>
                 <span className="font-bold text-lg text-white">{company.name}</span>
               </div>

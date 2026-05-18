@@ -37,7 +37,7 @@ export function TechStack() {
         <FadeIn>
           <SectionHeading
             label="Technology Stack"
-            title="Tools & Technologies We Master"
+            title={<span className="text-white drop-shadow-lg" style={{textShadow: '0 2px 8px rgba(0,0,0,0.7)'}}>Tools & Technologies We Master</span>}
             description="We work with industry-leading tools and platforms across the entire embedded product development lifecycle."
           />
         </FadeIn>

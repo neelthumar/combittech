@@ -1,6 +1,6 @@
 export const assets = {
   logo: {
-    primary: "/placeholders/logo/logo-primary.png",
+    primary: "/placeholders/logo/logo-primary.jpeg",
     dark: "/placeholders/logo/logo-dark.png",
     icon: "/placeholders/logo/logo-icon.png",
   },
@@ -13,27 +13,27 @@ export const assets = {
 
   services: {
     firmware: "/placeholders/services/firmware.jpg",
-    pcb: "/placeholders/services/pcb.jpg",
+    pcb: "/placeholders/services/pcb.webp",
     iot: "/placeholders/services/iot.jpg",
-    prototyping: "/placeholders/services/prototyping.jpg",
+    prototyping: "/placeholders/services/prototyping.webp",
     testing: "/placeholders/services/testing.jpg",
     rtos: "/placeholders/services/rtos.jpg",
-    automation: "/placeholders/services/automation.jpg",
+    automation: "/placeholders/services/automation.webp",
   },
 
   projects: {
-    project1: "/placeholders/projects/project-1.jpg",
+    project1: "/placeholders/projects/project-1.webp",
     project2: "/placeholders/projects/project-2.jpg",
-    project3: "/placeholders/projects/project-3.jpg",
+    project3: "/placeholders/projects/project-3.png",
     project4: "/placeholders/projects/project-4.jpg",
-    project5: "/placeholders/projects/project-5.jpg",
+    project5: "/placeholders/projects/project-5.webp",
     project6: "/placeholders/projects/project-6.jpg",
   },
 
   industries: {
-    automation: "/placeholders/industries/automation.jpg",
+    automation: "/placeholders/industries/automation.webp",
     consumer: "/placeholders/industries/consumer.jpg",
-    iot: "/placeholders/industries/iot.jpg",
+    iot: "/placeholders/industries/iot.webp",
     robotics: "/placeholders/industries/robotics.jpg",
   },
 
@@ -45,10 +45,10 @@ export const assets = {
   },
 
   general: {
-    office: "/placeholders/general/office.jpg",
+    office: "/placeholders/general/office.webp",
     lab: "/placeholders/general/lab.jpg",
     workspace: "/placeholders/general/workspace.jpg",
-    culture: "/placeholders/general/culture.jpg",
+    culture: "/placeholders/general/culture.png",
     about: "/placeholders/general/about.jpg",
   },
 

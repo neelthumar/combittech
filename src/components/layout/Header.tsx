@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { assets } from "@/config/assets";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -38,9 +39,12 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-lg bg-primary-600 flex items-center justify-center group-hover:bg-primary-700 transition-colors">
-              <span className="text-white font-bold text-sm">CT</span>
-            </div>
+            <img
+              src={assets.logo.primary}
+              alt="CombitTech Logo"
+              className="h-9 w-auto object-contain rounded-lg"
+              style={{ display: "block" }}
+            />
             <div className="flex flex-col">
               <span className={cn(
                 "font-bold text-lg leading-none transition-colors",

@@ -10,38 +10,38 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Dr. Marcus Weber",
-    role: "VP of Engineering",
-    company: "Precision Instruments GmbH",
+    name: "Nilesh Parmar",
+    role: "Production Supervisor",
+    company: "Shree Plastics",
     quote:
-      "CombitTech delivered a measurement platform that exceeded our accuracy specifications. Their firmware team's understanding of analog signal processing and noise reduction techniques was exceptional. They felt like an extension of our R&D department.",
+      "CombitTech helped us automate our injection molding line. Their PLC integration and sensor calibration made our process more reliable and efficient.",
     rating: 5,
   },
   {
     id: "2",
-    name: "Sarah Chen",
-    role: "CTO",
-    company: "NovaSense IoT",
+    name: "Vijay Shah",
+    role: "Maintenance Engineer",
+    company: "Vraj Dairy Equipments",
     quote:
-      "We engaged CombitTech for our IoT gateway development. They handled everything from hardware design to cloud integration. The quality of their PCB design and firmware architecture gave us confidence to scale production to 50,000 units.",
+      "We needed a custom IoT solution for monitoring our cold storage. The team delivered a robust system with real-time alerts and easy reporting.",
     rating: 5,
   },
   {
     id: "3",
-    name: "Rajesh Patel",
-    role: "Director of Product",
-    company: "IndusTech Automation",
+    name: "Priya Joshi",
+    role: "QA Technician",
+    company: "Sunrise Electronics",
     quote:
-      "The custom motor controller CombitTech designed replaced our legacy PLC-based system at a fraction of the cost. Their industrial protocol expertise (CANopen, Modbus) and safety-critical design approach was exactly what we needed.",
+      "Their embedded firmware upgrade for our test jigs reduced our manual work and improved accuracy. Support was quick and clear.",
     rating: 5,
   },
   {
     id: "4",
-    name: "Emily Richards",
-    role: "Founder & CEO",
-    company: "WearWell Health",
+    name: "Rakesh Mehta",
+    role: "R&D Assistant",
+    company: "MicroFab Instruments",
     quote:
-      "CombitTech turned our wearable concept into a certified product in under 8 months. Their power optimization work was remarkable — we achieved 10 days battery life where competitors manage 3-4 days. Outstanding embedded engineering team.",
+      "We collaborated on a small measurement device. CombitTech’s hardware design and documentation were very professional and easy to follow.",
     rating: 5,
   },
 ];
