@@ -1,10 +1,11 @@
 "use client";
 
+import React from "react";
 import { cn } from "@/lib/utils";
 
 interface SectionHeadingProps {
   label?: string;
-  title: string;
+  title: React.ReactNode;
   description?: string;
   align?: "left" | "center";
   className?: string;
